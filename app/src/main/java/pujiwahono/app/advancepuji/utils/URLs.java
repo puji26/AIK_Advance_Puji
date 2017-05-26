@@ -2,12 +2,7 @@ package pujiwahono.app.advancepuji.utils;
 
 import pujiwahono.app.advancepujilistlaptop.BuildConfig;
 
-/**
- * ---------------------------------
- * Created by isfaaghyth with <3
- * Everything in here: @isfaaghyth
- * ---------------------------------
- */
+
 
 public class URLs {
     private static final String BASE_URL = BuildConfig.URI;
