@@ -3,12 +3,10 @@ package pujiwahono.app.advancepuji.base;
 /**
  * Created by evpuji2017 on 5/25/17.
  */
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
 import butterknife.ButterKnife;
-import pujiwahono.app.advancepuji.models.MainModelImp;
 import rx.Subscription;
 import rx.subscriptions.CompositeSubscription;
 

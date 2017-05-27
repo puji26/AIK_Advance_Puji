@@ -25,7 +25,7 @@ public class SplashActivity extends BaseActivity implements SplashView  {
 
     @Override
     public void showAlert() {
-        showToast("Hai, selamat datang!");
+        showToast("Selamat Datang di Toko Laptop Online");
     }
 
     @Override

@@ -1,4 +1,4 @@
-package pujiwahono.app.advancepuji.models;
+package pujiwahono.app.advancepuji.models.main;
 
 import okhttp3.Request;
 

@@ -12,14 +12,6 @@ import android.view.ViewGroup;
 import java.lang.reflect.Constructor;
 import java.util.ArrayList;
 
-import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
-import java.lang.reflect.Constructor;
-import java.util.ArrayList;
-
 public abstract class ListAdapter<T, VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> {
 
     protected int mLayout;
@@ -33,6 +25,8 @@ public abstract class ListAdapter<T, VH extends RecyclerView.ViewHolder> extends
         this.mModelClass = mModelClass;
         this.mData = mData;
     }
+
+
 
     @Override public VH onCreateViewHolder(ViewGroup parent, int viewType) {
         ViewGroup view = (ViewGroup) LayoutInflater.from(parent.getContext()).inflate(mLayout, parent, false);

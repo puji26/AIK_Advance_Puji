@@ -1,6 +1,6 @@
 package pujiwahono.app.advancepuji.view.main;
 
-import pujiwahono.app.advancepuji.models.MainModelImp;
+import pujiwahono.app.advancepuji.models.main.MainModelImp;
 
 /**
  * Created by evpuji2017 on 5/25/17.

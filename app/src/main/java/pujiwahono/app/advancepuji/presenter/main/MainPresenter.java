@@ -1,6 +1,6 @@
 package pujiwahono.app.advancepuji.presenter.main;
 
-import pujiwahono.app.advancepuji.models.MainModelImp;
+import pujiwahono.app.advancepuji.models.main.MainModelImp;
 import rx.Observable;
 
 /**

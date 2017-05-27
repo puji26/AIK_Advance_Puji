@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/item_lislaptop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:gravity="left"
+        android:clickable="true"
+        android:foreground="?selectableItemBackground"
+
+        >
+
+        <TextView
+            android:id="@+id/txtName"
+            android:text="Model Name"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+
+        <TextView
+            android:id="@+id/txtViewRam"
+            android:text="Memory RAM"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/txtViewOS"
+            android:text="OS"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtViewPrice"
+            android:text="Price"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtViewScreensize"
+            android:text="Screen Size"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/txtViewBrand"
+            android:text="Brand"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</RelativeLayout>
