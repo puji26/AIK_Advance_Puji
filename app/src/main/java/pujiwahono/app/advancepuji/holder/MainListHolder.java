@@ -21,6 +21,7 @@ public class MainListHolder extends RecyclerView.ViewHolder {
     @BindView(R.id.txtViewPrice) TextView txtPrice;
     @BindView(R.id.txtViewScreensize) TextView txtScreenSize;
     @BindView(R.id.txtViewBrand) TextView txtBrand;
+
     public MainListHolder(View itemView) {
         super(itemView);
         ButterKnife.bind(this, itemView);

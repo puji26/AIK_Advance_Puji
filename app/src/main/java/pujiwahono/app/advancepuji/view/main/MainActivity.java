@@ -15,6 +15,7 @@ import pujiwahono.app.advancepuji.holder.MainListHolder;
 import pujiwahono.app.advancepuji.models.main.MainModelImp;
 import pujiwahono.app.advancepuji.presenter.main.MainPresenter;
 import pujiwahono.app.advancepuji.presenter.main.MainPresenterImp;
+import pujiwahono.app.advancepuji.view.fragment.DialogDetail;
 import pujiwahono.app.advancepujilistlaptop.R;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
@@ -59,6 +60,19 @@ public class MainActivity extends BaseActivity implements MainView{
                  holder.bPrice(model.getPrice());
                  holder.bScreensize(model.getScreensize());
                  holder.bBrand(model.getBrand());
+
+                 holder.getItemLisLaptop().setOnClickListener(v -> {
+                     DialogDetail detail = new DialogDetail();
+                     Bundle bundle = new Bundle();
+                     bundle.putString("id", String.valueOf(model.getId()));
+
+                     detail.setArguments(bundle);
+                     detail.show(getFragmentManager(), "Detail");
+
+                     System.out.print(bundle);
+
+                 });
+
 
              }
 
